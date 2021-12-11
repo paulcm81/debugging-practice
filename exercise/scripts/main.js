@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', function() {
   // Part 1: Ensure that the user can play the game.
   var cards = document.querySelectorAll('.card');
-  var selectedCards = [];
+  var selectedCards = [2];
   var matchedCards = [];
 
   cards.forEach(function(card) {
